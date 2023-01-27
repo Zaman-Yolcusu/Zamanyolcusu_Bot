@@ -25,3 +25,6 @@ def handle_response(message) -> str:
 
     if p_message == '.help':
         return 'Yardım için zamanyolcusu.net adresine gidebilirsin!'
+
+    if p_message == '.minecraft':
+        return 'Server ip: "193.122.53.126" \nDomain: zamanyolcusu.net'

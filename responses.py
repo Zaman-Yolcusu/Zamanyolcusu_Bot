@@ -24,7 +24,16 @@ def handle_response(message) -> str:
         return 'Yayınlar bu adreslerde! \nhttps://www.twitch.tv/bakruu \n https://www.youtube.com/bakruu'
 
     if p_message == '.help':
-        return 'Yardım için zamanyolcusu.net adresine gidebilirsin!'
+        return 'Yardım için zamanyolcusu.net adresine gidebilirsin! İşte bazı komutlar; \n.yayın \n.minecraft \n.discord \n .davet \n.steam \n.help'
 
     if p_message == '.minecraft':
         return 'Server ip: "193.122.53.126" \nDomain: zamanyolcusu.net'
+
+    if p_message == '.discord':
+        return 'zamanyolcusu.net/discord'
+        
+    if p_message == '.davet':
+        return 'zamanyolcusu.net/discord'
+    
+    if p_message == '.steam':
+        return 'https://steamcommunity.com/groups/peacemakersonline'
